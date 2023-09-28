@@ -10,10 +10,10 @@ class Program
     {
         // Создание массива объектов
         Car[] cars = new Car[5];
-        cars[0] = new Car("Toyota", 2004, 7000000, false);
-        cars[1] = new Car("BMW M5 Competition", 2022, 30000000, true);
-        cars[2] = new Car("Audi RS6", 2021, 35000000);
-        cars[3] = new Car();
+        cars[0] = new Car("Toyota", 2004, 7000000, false); //тут добавляю false для того чтобы вывело что недоступно авто
+        cars[1] = new Car("BMW M5 Competition", 2022, 30000000, true); //тут наоборот true что доступно
+        cars[2] = new Car("Audi RS6", 2021, 35000000); //здесь показываю что если авто доступно, можно и не писать true
+        cars[3] = new Car(); //пустышка
         cars[4] = new Car("BMW XB7(Alpina)", 2023, 95000000);
 
         // Вывод информации о каждом автомобиле
